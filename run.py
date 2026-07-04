@@ -137,7 +137,7 @@ ss.headers.update({'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit
 token_val, phone_val = run_authentication_flow(ss, is_reauth=False)
 
 if token_val and phone_val:
-    TARGET_IP_2 = "10.44.77.250"
+    TARGET_IP_2 = "10.44.77.240"
     r_url_1 = f"http://{gw}:2060/wifidog/auth"
     r_url_2 = f"http://{TARGET_IP_2}:2060/wifidog/auth"
     
